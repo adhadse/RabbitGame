@@ -1,5 +1,5 @@
 # RabbitGame
-A simple command line game for rabbit that picks and drops into his hole
+A simple command line game of rabbit's simple life.
 
 # Story
 Help rabbit find his carrot and store it in the rabbit hole.
@@ -12,10 +12,14 @@ git clone https://github.com/adhadse/RabbitGame.git
 cd RabbitGame
 python -m venv ./venv
 source ./venv/bin/activate
-pip install  -r requirements.txt
+pip install -r requirements.txt
 
 ```
 ## Gameplay
+- use `a` to move left and `d` to move right.
+- pick carrot (`c`) using `p` (rabbit changes from `r` to `R`) and drop it in rabbit hole (`O`).
+- Jump over rabbit hole using `j`.
+- Press `esc` key anytime to escape the game
 ```bash
 py main.py
 ```
